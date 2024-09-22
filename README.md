@@ -157,9 +157,9 @@ You get the size on screen of the text using the `measureText()` context method.
 
 ![Stock Market Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Z7umTkUdp3ZS5CPk2RQdfA.gif)
 
-[Weather Scrolling Text](https://www.psd-dude.com/scrolling-text/#m0sfzqcm):
+[Space Invaders Scrolling Text](https://www.psd-dude.com/scrolling-text/#m17dd3i3):
 
-![Weather Scrolling Text](https://www.psd-dude.com/scrolling-text/presets/weather-ticker.gif)
+![Weather Scrolling Text](https://www.psd-dude.com/scrolling-text/presets/scrolling-text-alien.gif)
 
 These were created with the [scrolling text gif and video generator](https://www.psd-dude.com/scrolling-text/) on [PSDDude](https://www.psd-dude.com/).
 

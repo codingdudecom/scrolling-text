@@ -149,7 +149,7 @@ You get the size on screen of the text using the `measureText()` context method.
 
 ![LED Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*d2YWlLTImlda4sLMj7OJAw.gif)
 
-[Star Wars Opening Crawl Scrolling Text Generator](https://www.psd-dude.com/scrolling-text/#m0ur6r1y):
+[▶️Star Wars Opening Crawl Scrolling Text Generator](https://www.psd-dude.com/scrolling-text/#m0ur6r1y):
 
 [![Scrolling Text](https://img.youtube.com/vi/RkRJeGlwCQI/0.jpg)](https://www.youtube.com/watch?v=RkRJeGlwCQI)
 

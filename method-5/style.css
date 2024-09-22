@@ -1,0 +1,28 @@
+:root{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  justify-content:center;
+  height:100dvh;
+  background:black;
+  font-family:sans-serif;
+  color:white;
+}
+
+canvas{
+  margin:0 auto;
+  display:block;
+  background-color:white;
+}
+.author{
+  position:fixed;
+  bottom:1em;
+  right:1em;
+  font-size:clamp(16px,4dvh,32px);
+  color:white;  
+}
+
+.author a{
+  color:#afa;
+  font-weight:bold;
+}

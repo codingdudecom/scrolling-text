@@ -86,3 +86,58 @@ setInterval(() => {
 ```
 
 This is my most “unelegant” solution for making scrolling text. Basically it’s cramming a text in a container with scroll and changes the scrolling of the container programmatically. When the scroll amount goes over the container amount it resets.
+
+
+## Method 4 - Scroll Text with jQuery
+
+```js
+(document).ready(
+ function loop() {
+  $('.scrolling-text').css({scrollLeft:0});
+  $('.scrolling-text').animate({ scrollLeft: "+=1000" }, 10000, 'linear', loop);
+ }
+);
+```
+
+Use the `animate()` jQuery function to animate the scrollLeft property and this will create a scrolling text effect.
+
+In my view jQuery is a bit of an overkill in this situation, and it only makes sense if you already use jQuery in your project.
+
+Of course, `animate()` can also be used for animating the translateX or translateY properties as seen above.
+
+## Method 5 - Scrolling Text with Canvas HTML5
+
+This is my favorite method. Especially because it’s so flexible and offers so many possibilities, like for example exporting the scrolling text as GIF or even video. You can see this in action by going the the Scrolling Text generator on PSDDude where you can create your own customized scrolling text images and videos.
+
+The HTML code is straight forwards:
+
+```html
+<canvas id="scrollingCanvas" width="300" height="50"></canvas>
+```
+
+and the JS is where the magic happens:
+
+```js
+const canvas = document.getElementById('scrollingCanvas');
+const ctx = canvas.getContext('2d');
+const text = "Scrolling Text Example";
+let x = canvas.width;
+
+function draw() {
+ ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+ ctx.font = '20px Arial';
+ ctx.fillStyle = 'black';
+ ctx.fillText(text, x, 30);
+ x -= 2; // Adjust speed of scrolling here
+ if (x < -ctx.measureText(text).width) {
+  x = canvas.width; // Reset position when text is out of view
+ }
+ requestAnimationFrame(draw);
+}
+
+draw();
+```
+
+Using a loop with `requestAnimationFrame()` calling the function `draw()` is actually the way HTML5 games implement their graphics drawing. This is a cool way for creating smooth scrolling text.
+
+You get the size on screen of the text using the `measureText()` context method. This allows creating a seamless scrolling text by resetting the text position when it reaches the end position.

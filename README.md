@@ -142,6 +142,13 @@ Using a loop with `requestAnimationFrame()` calling the function `draw()` is act
 
 You get the size on screen of the text using the `measureText()` context method. This allows creating a seamless scrolling text by resetting the text position when it reaches the end position.
 
+## Check out these CodePens
+
+- [scrolling text 1](https://codepen.io/inegoita/pen/vYqvgNr)
+- [scrolling text 2](https://codepen.io/inegoita/pen/oNrJBed)
+- [scrolling text 3](https://codepen.io/inegoita/pen/eYwbWVO)
+- [scrolling text 4](https://codepen.io/inegoita/pen/OJedLwv)
+- [scrolling text 5](https://codepen.io/inegoita/pen/OJedLqE)
 
 ## A Few Scrolling Text Ideas
 

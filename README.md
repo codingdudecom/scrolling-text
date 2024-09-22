@@ -146,15 +146,19 @@ You get the size on screen of the text using the `measureText()` context method.
 ## A Few Scrolling Text Ideas
 
 [LED Scrolling Text GIF](https://www.psd-dude.com/scrolling-text/#m0uqu9rk):
+
 ![LED Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*d2YWlLTImlda4sLMj7OJAw.gif)
 
 [Star Wars Opening Crawl Scrolling Text Generator](https://www.psd-dude.com/scrolling-text/#m0ur6r1y):
-{% youtube RkRJeGlwCQI %}
+
+[![Scrolling Text](https://img.youtube.com/vi/RkRJeGlwCQI/0.jpg)](https://www.youtube.com/watch?v=RkRJeGlwCQI)
 
 [Stock Market Scrolling Text](https://www.psd-dude.com/scrolling-text/#m0sd5fsu):
+
 ![Stock Market Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Z7umTkUdp3ZS5CPk2RQdfA.gif)
 
 [Weather Scrolling Text](https://www.psd-dude.com/scrolling-text/#m0sfzqcm):
+
 ![Weather Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*-8WQXpIOxMQNurj4d_u3iQ.gif)
 
 These were created with the [scrolling text gif and video generator](https://www.psd-dude.com/scrolling-text/) on [PSDDude](https://www.psd-dude.com/).

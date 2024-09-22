@@ -1,0 +1,40 @@
+:root{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  justify-content:center;
+  height:100dvh;
+  background:black;
+  font-family:sans-serif;
+  color:white;
+}
+
+.scrolling-text {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: scroll 1s linear infinite;
+    font-size:clamp(16px,50dvh,220px);
+    white-space:nowrap;
+    width:fit-content;
+    margin: 0 auto;
+  }
+
+ @keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+.author{
+  position:fixed;
+  bottom:1em;
+  right:1em;
+  font-size:clamp(16px,4dvh,32px);
+  color:white;  
+}
+
+.author a{
+  color:#afa;
+  font-weight:bold;
+}

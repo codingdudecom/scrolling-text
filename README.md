@@ -141,3 +141,21 @@ draw();
 Using a loop with `requestAnimationFrame()` calling the function `draw()` is actually the way HTML5 games implement their graphics drawing. This is a cool way for creating smooth scrolling text.
 
 You get the size on screen of the text using the `measureText()` context method. This allows creating a seamless scrolling text by resetting the text position when it reaches the end position.
+
+
+## A Few Scrolling Text Ideas
+
+[LED Scrolling Text GIF](https://www.psd-dude.com/scrolling-text/#m0uqu9rk):
+![LED Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*d2YWlLTImlda4sLMj7OJAw.gif)
+
+[Star Wars Opening Crawl Scrolling Text Generator](https://www.psd-dude.com/scrolling-text/#m0ur6r1y):
+{% youtube RkRJeGlwCQI %}
+
+[Stock Market Scrolling Text](https://www.psd-dude.com/scrolling-text/#m0sd5fsu):
+![Stock Market Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Z7umTkUdp3ZS5CPk2RQdfA.gif)
+
+[Weather Scrolling Text](https://www.psd-dude.com/scrolling-text/#m0sfzqcm):
+![Weather Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*-8WQXpIOxMQNurj4d_u3iQ.gif)
+
+These were created with the [scrolling text gif and video generator](https://www.psd-dude.com/scrolling-text/) on [PSDDude](https://www.psd-dude.com/).
+

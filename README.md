@@ -159,7 +159,7 @@ You get the size on screen of the text using the `measureText()` context method.
 
 [Weather Scrolling Text](https://www.psd-dude.com/scrolling-text/#m0sfzqcm):
 
-![Weather Scrolling Text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*-8WQXpIOxMQNurj4d_u3iQ.gif)
+![Weather Scrolling Text](https://www.psd-dude.com/scrolling-text/presets/weather-ticker.gif)
 
 These were created with the [scrolling text gif and video generator](https://www.psd-dude.com/scrolling-text/) on [PSDDude](https://www.psd-dude.com/).
 
